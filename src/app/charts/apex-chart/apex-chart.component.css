@@ -1,0 +1,18 @@
+.blocks{
+    height: 150px;
+}
+.container{
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 20px;
+}
+
+
+.chart-container {
+    height: 250px; /* Set the desired height for the chart container */
+  }
+  
+.chart-pie, .chart-bar {
+    height: 40%; /* Fill the height of the chart container */
+}
+  

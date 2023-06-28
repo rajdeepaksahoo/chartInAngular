@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AllChartsComponent } from './all-charts/all-charts.component';
-import { ViewComponent } from './view/view.component';
+import { ApexChartComponent } from './apex-chart/apex-chart.component';
 
 const routes: Routes = [
-  {path:"",component:ViewComponent}
+  {path:"",component:ApexChartComponent}
 ];
 
 @NgModule({

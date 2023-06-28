@@ -1,0 +1,106 @@
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <mat-card>
+          <mat-card-content>
+            <h2>Pie</h2>
+            <div class="chart-container">
+              <ng-container *ngFor="let chartOption of chartOptions2" class="chart-pie">
+                <apx-chart
+                  [series]="chartOption.series"
+                  [chart]="chartOption.chart"
+                  [title]="chartOption.title"
+                ></apx-chart>
+              </ng-container>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+  
+      <div class="col-4">
+        <mat-card>
+          <mat-card-content>
+            <h2>Bar</h2>
+            <div class="chart-container">
+              <apx-chart
+                [series]="chartOptions1.series"
+                [chart]="chartOptions1.chart"
+                [xaxis]="chartOptions1.xaxis"
+                [title]="chartOptions1.title"
+              ></apx-chart>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+  
+      <div class="col-4">
+        <mat-card>
+          <mat-card-content>
+            <h2>Bar</h2>
+            <div class="chart-container">
+              <apx-chart
+                [series]="chartOptions1.series"
+                [chart]="chartOptions1.chart"
+                [xaxis]="chartOptions1.xaxis"
+                [title]="chartOptions1.title"
+              ></apx-chart>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <mat-card>
+          <mat-card-content>
+            <h2>Pie</h2>
+            
+              <ng-container *ngFor="let chartOption of chartOptions2" class="chart-pie chart-container">
+                <apx-chart
+                  [series]="chartOption.series"
+                  [chart]="chartOption.chart"
+                  [title]="chartOption.title"
+                ></apx-chart>
+              </ng-container>
+           
+          </mat-card-content>
+        </mat-card>
+      </div>
+  
+      <div class="col-4">
+        <mat-card>
+          <mat-card-content>
+            <h2>Bar</h2>
+            <div class="chart-container">
+              <apx-chart
+                [series]="chartOptions1.series"
+                [chart]="chartOptions1.chart"
+                [xaxis]="chartOptions1.xaxis"
+                [title]="chartOptions1.title"
+              ></apx-chart>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+  
+      <div class="col-4">
+        <mat-card>
+          <mat-card-content>
+            <h2>Bar</h2>
+            <div class="chart-container">
+              <apx-chart
+                [series]="chartOptions1.series"
+                [chart]="chartOptions1.chart"
+                [xaxis]="chartOptions1.xaxis"
+                [title]="chartOptions1.title"
+              ></apx-chart>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+  
