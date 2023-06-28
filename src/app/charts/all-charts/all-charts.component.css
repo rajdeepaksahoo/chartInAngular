@@ -6,3 +6,7 @@
     padding-top: 0px;
     margin-top: 20px;
 }
+.pie{
+    display: flex;
+    justify-content: center;
+}

@@ -51,7 +51,7 @@ export class AllChartsComponent {
       
       type: 'pie',
       data: {
-        labels: ['Label 1', 'Label 2', 'Label 3'],
+        //labels: ['Label 1', 'Label 2', 'Label 3'],
         datasets: [{
           data: [30, 50, 20],
           backgroundColor: [
