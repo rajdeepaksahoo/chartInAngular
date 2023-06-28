@@ -35,6 +35,8 @@ export class ApexChartComponent {
   @ViewChild("chart2") chart2!: ChartComponent;
 
   public chartOptions1: ChartOptions;
+  //Added
+  public chartOptions3: ChartOptions;
   public chartOptions2: ChartOptions1[]=[];
 
   constructor() {
@@ -56,7 +58,7 @@ export class ApexChartComponent {
         categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"]
       }
     };
-
+    
     this.chartOptions2 = [
       {
         series: [44, 55, 13, 43, 22],
@@ -68,7 +70,27 @@ export class ApexChartComponent {
           text: "Chart 1",
         },
       }
+      
     ];
+    //Added
+    this.chartOptions3 = {
+      series: [
+        {
+          name: "Series 1",
+          data: [0, 0, 0, 0, 0, 0, 0]
+        }
+      ],
+      chart: {
+        height: 250,
+        type: "bar"
+      },
+      title: {
+        text: "Graph 1"
+      },
+      xaxis: {
+        categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"]
+      }
+    };
   }
 
 }
